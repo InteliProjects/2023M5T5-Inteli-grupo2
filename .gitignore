@@ -1,0 +1,9 @@
+.vscode
+target
+*.docx
+*.pdf
+*postgres-data/*
+*node_modules/*
+
+
+

@@ -1,0 +1,74 @@
+*{
+  color: black;
+  text-decoration: none;
+}
+.single__nft__card, .single__project__card {
+  display: inline-block;
+  width: 250px; /* ou qualquer tamanho que você desejar */
+  margin: 10px; /* espaço entre os cards */
+  border: 1px solid #ddd; /* borda do card */
+  border-radius: 10px; /* bordas arredondadas */
+  overflow: hidden; /* para garantir que nada ultrapasse as bordas arredondadas */
+  text-align: center;
+  background-color: white; /* ou qualquer cor de fundo que você desejar */
+}
+
+.project__img, .nft__content {
+  padding: 10px; /* espaço interno do card */
+}
+
+.add-project__title, .nft__title {
+  font-size: 18px; /* tamanho da fonte do título */
+  margin: 10px 0; /* espaço acima e abaixo do título */
+}
+
+.project__img img, .img-fabrica {
+  width: 100%; /* faz a imagem ocupar a largura total do card */
+  height: auto; /* mantém a proporção da imagem */
+}
+
+.creator__info-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0; /* espaço acima e abaixo da seção de informações */
+}
+
+.creator__info {
+  display: flex;
+  align-items: center;
+}
+
+.creator__info h6 {
+  font-size: 14px;
+  margin: 0;
+  color: #888;
+}
+
+.creator__info p {
+  margin: 0;
+}
+
+.project__img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Estilos para o título do card
+.project__title p {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.add-project__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+}
+
+.add-project__title {
+  font-size: 30px;
+} */

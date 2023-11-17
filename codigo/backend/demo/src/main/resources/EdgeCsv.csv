@@ -1,0 +1,11 @@
+﻿startNode;endNode;rpn;weightgo;weightrt;bidirecional;;;
+T10;T20;AMBEV05;10;10;true;
+T10;T30;AMBEV05;5;5;true;
+T30;T20;AMBEV05;3;3;false;
+T20;T40;AMBEV05;1;1;true;
+T30;T40;AMBEV05;8;8;true;
+T30;T50;AMBEV05;2;2;false;
+T50;T40;AMBEV05;4;4;true;
+T40;T60;AMBEV05;5;5;true;
+T50;T60;AMBEV05;6;6;true;
+

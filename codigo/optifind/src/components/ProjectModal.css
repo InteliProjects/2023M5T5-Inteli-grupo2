@@ -1,0 +1,70 @@
+/* Estilizando o conteúdo do modal */
+
+.ReactModal__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;  /* Ajuste o valor conforme necessário para garantir que o modal fique na frente da navbar */
+  }
+  
+.modal-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+  }
+  
+  /* Estilizando o formulário dentro do modal */
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilizando as labels e inputs do formulário */
+  .modal-content form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .modal-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  .modal-content form input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Estilizando o botão de submit */
+  .modal-content form button {
+    padding: 10px 20px;
+    background-color: #04a3ed;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .modal-content form button:hover {
+    background-color: #025eae;
+  }
+
+  .button-group {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  

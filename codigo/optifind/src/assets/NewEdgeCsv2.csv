@@ -1,0 +1,15 @@
+﻿startNode;endNode;rpn;weightgo;weightrt;bidirecional
+Tanque01;Valvula01;74ROCK56;2;2;true
+Tanque01;Valvula06;74ROCK56;1;1;true
+Valvula01;Valvula03;74ROCK56;5;5;true
+Valvula01;Valvula02;74ROCK56;3;3;true
+Valvula02;Tanque02;74ROCK56;2;2;true
+Valvula02;Valvula04;74ROCK56;2;2;true
+Valvula03;Valvula04;74ROCK56;6;6;true
+Valvula04;Tanque03;74ROCK56;2;2;true
+Valvula04;Valvula06;74ROCK56;3;3;true
+Valvula06;Valvula07;74ROCK56;4;4;true
+Valvula04;Valvula05;74ROCK56;3;3;true
+Valvula05;Tanque02;74ROCK56;2;2;true
+Valvula05;Tanque03;74ROCK56;8;8;true
+Valvula07;Tanque03;74ROCK56;5;5;true
